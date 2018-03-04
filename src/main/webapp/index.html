@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My upload</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class='btn-primary'><div class='container btn-lg'>UPLOAD FILE WEB</div></div><br>
+	<div class='container'>
+
+				
+		<center><div class="panel panel-default">
+			<h1>Select a file to upload</h1>			
+			<img  src="image/uploadcloud.png"/><br><br>
+			<form action='uploadFile' method='post' enctype="multipart/form-data"
+				style="margin-top: 10px; width: 50%;">
+				<input type="file"  name="file"><br>
+				<button type='submit' class="btn btn-primary" style='width: 30%;'>Upload</button><br>
+				<a href="listFile" class="btn btn-primary" style="margin-top: 10px; width: 30%;" >List File</a>
+			</form>
+			<br>
+		</div>
+		</center>
+	</div>
+</body>
+</html>
